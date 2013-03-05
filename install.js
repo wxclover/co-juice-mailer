@@ -20,6 +20,7 @@ var config = [
 
 var fs = require('fs');
 var path = require('path');
+var app = compound.app;
 
 if (fs.existsSync(app.root + '/config') && !fs.existsSync(app.root + '/config/mailer.yml')) {
     fs.writeFileSync(app.root + '/config/mailer.yml', config, 'utf8');
