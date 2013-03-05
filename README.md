@@ -1,7 +1,7 @@
 Installation
 ------------
 
-    railway install https://github.com/1602/railway-mailer.git
+    railway install https://github.com/bioform/railway-mailer.git
 
 Usage
 -----
