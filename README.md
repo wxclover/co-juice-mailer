@@ -1,7 +1,7 @@
 About
 -----
 
-It is simple mailer for compoundjs.org project.
+It is simple mailer for [compound.js](https://github.com/1602/compound) project.
 It based on [nademailer](https://github.com/andris9/Nodemailer) and [swig-email-templates](https://github.com/superjoe30/swig-email-templates) npms.
 
 Installation
