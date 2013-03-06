@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "nodemailer": ">=0.1.11",
-    "yaml": ">=0.1.2"
+    "yaml": ">=0.1.2",
+    "swig-email-templates": ">=0.4.0"
   },
   "engines": {
     "node": "*"
