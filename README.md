@@ -54,9 +54,15 @@ Put you email views into the `app/views/` directory with following naming style:
 When you want to send email, just call
 
     mailer = require( 'railway-mailer' );
-
+    callback = function(err, success){
+        if( success ){
+            console.log('email was sent')
+        } else {
+            console.log('Error: ' + err)
+        }
+    };
     mailer.sendEmail( 'relative_path/templatename', {name: 'my var for template context'},
-        {subject: 'Email subject', email: 'recipient@example.com', from: 'me@home'}
+        {subject: 'Email subject', email: 'recipient@example.com', from: 'me@home'}, callback)
 
 
 The following variables will be available in the email template context:
