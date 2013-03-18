@@ -1,6 +1,6 @@
 {
-  "name": "railway-mailer",
-  "description": "Railway extension for sending emails",
+  "name": "co-juice-mailer",
+  "description": "CompoundJS extension for sending emails",
   "version": "0.0.1",
   "repository": {
     "type": "git",
