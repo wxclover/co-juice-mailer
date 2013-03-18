@@ -22,7 +22,9 @@ Installation
 
 Put the following dependence to your package.json file
 
-    "railway-mailer":     "git://github.com/bioform/railway-mailer.git"
+    "co-juice-mailer":     "latest"
+
+Add this package to "/config/autoload.js" file
     
 And run:
     
@@ -66,7 +68,7 @@ Put you email views into the `app/views/` directory with following naming style:
 
 When you want to send email, just call
 
-    mailer = require( 'railway-mailer' );
+    mailer = require( 'co-juice-mailer' );
     callback = function(err, success){
         if( success ){
             console.log('email was sent')
