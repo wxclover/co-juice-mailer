@@ -4,6 +4,19 @@ About
 It is simple mailer for [compound.js](https://github.com/1602/compound) project.
 It based on [nademailer](https://github.com/andris9/Nodemailer) and [swig-email-templates](https://github.com/superjoe30/swig-email-templates) npms.
 
+Features
+--------
+
+ * Uses [swig](https://github.com/paularmstrong/swig/), which supports
+   [Django-inspired template inheritance](https://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance).
+ * Uses [juice](https://github.com/LearnBoost/juice), which takes an HTML
+   file and inlines all the `<link rel="stylesheet">`s and the `<style>`s.
+ * Uses [swig-dummy-context](https://github.com/superjoe30/swig-dummy-context)
+   which gives you the ability to generate dummy context from a template to
+   aid in an email preview tool.
+ * URL rewrite support - you can provide a `urlRewriteFn` argument to rewrite
+   your links.
+
 Installation
 ------------
 
