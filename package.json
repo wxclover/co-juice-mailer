@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/1602/railway-mailer.git"
   },
-  "author": "Anatoliy Chakkaev",
+  "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
   "main": "lib/mailer.js",
   "directories": {
     "lib": "lib"
@@ -15,6 +15,14 @@
     "nodemailer": ">=0.1.11",
     "yaml": ">=0.1.2",
     "swig-email-templates": ">=0.4.0"
+  },
+  "keywords": [
+    "mailer",
+    "compound"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bioform/co-juice-mailer"
   },
   "engines": {
     "node": "*"
