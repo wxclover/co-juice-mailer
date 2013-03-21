@@ -68,7 +68,6 @@ Put you email views into the `app/views/` directory with following naming style:
 
 When you want to send email, just call
 
-    mailer = require( 'co-juice-mailer' );
     callback = function(err, success){
         if( success ){
             console.log('email was sent')
@@ -76,9 +75,10 @@ When you want to send email, just call
             console.log('Error: ' + err)
         }
     };
-    mailer.sendEmail( 'relative_path/templatename', {name: 'my var for template context'},
+    compound.mailer.send( 'relative_path/templatename', {name: 'my var for template context'},
         {subject: 'Email subject', email: 'recipient@example.com', from: 'me@home'}, callback)
 
+Controller have `sendEmail` method with the same signature.
 
 The following variables will be available in the email template context:
 
