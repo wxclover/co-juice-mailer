@@ -2,10 +2,6 @@
   "name": "co-juice-mailer",
   "description": "CompoundJS extension for sending emails",
   "version": "0.0.4",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/1602/railway-mailer.git"
-  },
   "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
   "main": "lib/mailer.js",
   "directories": {
