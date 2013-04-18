@@ -1,15 +1,16 @@
 {
   "name": "co-juice-mailer",
   "description": "CompoundJS extension for sending emails",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
   "main": "lib/mailer.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "nodemailer": ">=0.1.11",
-    "yaml": ">=0.1.2",
+    "lodash":               "latest",
+    "nodemailer":           ">=0.1.11",
+    "yaml":                 ">=0.1.2",
     "swig-email-templates": ">=0.4.0"
   },
   "keywords": [
