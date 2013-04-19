@@ -1,7 +1,7 @@
 {
   "name": "co-juice-mailer",
   "description": "CompoundJS extension for sending emails",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
   "main": "lib/mailer.js",
   "directories": {

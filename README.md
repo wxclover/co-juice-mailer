@@ -87,6 +87,12 @@ The following variables will be available in the email template context:
 
 Besides, default value for "from" option can be configured via "mailer.yml" file too.
 
+Swig filters
+------------
+
+If you want to use your own swig filters - put it to "/app/swig/filters.js" file (or "/app/swig/filters.coffee")
+
+See [Swig Variable Filters](http://paularmstrong.github.io/swig/docs/#filters)
 
 License
 -------
