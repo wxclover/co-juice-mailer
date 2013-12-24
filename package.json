@@ -1,15 +1,15 @@
 {
-  "name": "co-juice-mailer",
-  "description": "CompoundJS extension for sending emails",
-  "version": "0.0.6",
-  "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
+  "name": "co-mailer",
+  "description": "CompoundJS extension for sending emails ",
+  "version": "0.0.7",
+  "author": "Xinchao Wang <wxclover@gmail.com>",
   "main": "lib/mailer.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
     "lodash":               "latest",
-    "nodemailer":           ">=0.1.11",
+    "nodemailer":           ">=0.5.15",
     "yaml":                 ">=0.1.2",
     "swig-email-templates": ">=0.4.0"
   },
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bioform/co-juice-mailer"
+    "url": "https://github.com/wxclover/co-juice-mailer"
   },
   "engines": {
     "node": "*"

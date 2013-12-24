@@ -1,0 +1,5 @@
+development:
+  mailer: smtp
+  from: 'no-reply@test.com'
+  host: mail.test.com
+  secureConnection: false

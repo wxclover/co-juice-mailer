@@ -1,3 +1,8 @@
+Change
+------
+fork [co-juice-mailer](https://github.com/bioform/co-juice-mailer) project.
+update nodemailer to latest and modify api call.
+
 About
 -----
 
